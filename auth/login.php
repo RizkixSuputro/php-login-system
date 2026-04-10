@@ -19,12 +19,12 @@
                 <form action="process_login.php" method="POST">
                     <div class="mb-3 mt-5">
                         <label class="form-label">Email address</label>
-                        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        <input type="email" name="email" class="form-control" id="loginEmail" aria-describedby="emailHelp" required>
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Password</label>
-                        <input type="password" name="password" class="form-control" id="exampleInputPassword1" required>
+                        <input type="password" name="password" class="form-control" id="loginPassword" required>
                     </div>
                     <button type="submit" class="btn btn-primary w-100">Login</button>
                 </form>
