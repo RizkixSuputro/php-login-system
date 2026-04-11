@@ -56,7 +56,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // execute
     if (mysqli_stmt_execute($stmt) > 0) {
-        echo "Signup Berhasil";
+        header("Location: login.php");
+        exit;
     } else {
         echo "Terjadi kesalahan";
     }
