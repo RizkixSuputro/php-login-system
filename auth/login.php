@@ -28,6 +28,10 @@
                     </div>
                     <button type="submit" class="btn btn-primary w-100">Login</button>
                 </form>
+
+                <span>
+                    <p>dont have an account? <a href="./signup.php" class="text-muted">Sign Up</a></p>
+                </span>
             </div>
         </div>
     </div>
